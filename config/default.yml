@@ -4,7 +4,6 @@ recipes:                                       # Configs are parsed and every li
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - nodejs::default
-        - intellij::default
         - docker::default
         - boot2docker::default
         - redis::default
@@ -19,6 +18,7 @@ attributes:
             - google-chrome
             - iterm2
             - vagrant
+            - intellij-idea-ce
         cask_fonts:
             - inconsolata
     nodejs:
