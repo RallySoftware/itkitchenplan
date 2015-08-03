@@ -3,14 +3,23 @@ recipes:                                       # Configs are parsed and every li
         - applications::create_var_chef_cache
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
-        - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+        - nodejs::default
+        - intellij::default
+        - docker::default
+        - boot2docker::default
+        - redis::default
+        - spectacle::default
+        - virtualbox::default
+                              # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
 attributes:
     homebrewalt:
         apps:
             - git
         cask_apps:
             - google-chrome
-        cask_fonts:   
+            - iterm2
+            - vagrant
+        cask_fonts:
             - inconsolata
     nodejs:
         apps:
