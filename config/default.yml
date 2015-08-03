@@ -16,8 +16,8 @@ attributes:
             - iterm2
             - vagrant
             - intellij-idea-ce
+            - sublime-text
         cask_fonts:
             - inconsolata
     nodejs:
         apps:
-        
