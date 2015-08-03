@@ -20,4 +20,4 @@ attributes:
             - inconsolata
     nodejs:
         apps:
-            - bower
+        
