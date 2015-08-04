@@ -17,6 +17,7 @@ attributes:
             - vagrant
             - intellij-idea-ce
             - sublime-text
+            - chefdk
         cask_fonts:
             - inconsolata
     nodejs:
