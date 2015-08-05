@@ -7,12 +7,14 @@ recipes:                                       # Configs are parsed and every li
                               # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
 attributes:
     homebrewalt:
+      - npm
         apps:
             - git
             - docker
             - boot2docker
         cask_apps:
             - google-chrome
+            - firefox
             - iterm2
             - vagrant
             - intellij-idea-ce
