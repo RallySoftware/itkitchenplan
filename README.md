@@ -13,17 +13,7 @@ In order to run Kitchenplan, XCode must be installed on the target client. By de
 
 Installation Instructions:
 
-Running Kitchenplan is as easy as running kitchenplan provision
-
-  _  ___ _       _                      _
- | |/ (_) |     | |                    | |
- | ' / _| |_ ___| |__   ___ _ __  _ __ | | __ _ _ __
- |  < | | __/ __| '_ \ / _ \ '_ \| '_ \| |/ _` | '_ \
- | . \| | || (__| | | |  __/ | | | |_) | | (_| | | | |
- |_|\_\_|\__\___|_| |_|\___|_| |_| .__/|_|\__,_|_| |_|
-                                 | |
-                                 |_|
-
+Running Kitchenplan is as easy as running kitchenplan provision:
 -> Setting up bundler
       create  /opt/kitchenplan/Gemfile
          run  mkdir -p vendor/cache from "/opt/kitchenplan"
